@@ -1,0 +1,269 @@
+/*
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'Nothing You Could Do', cursive;
+
+
+darkblue: #22577E
+lightblue: #5584AC
+green: #95D1CC
+yellow: #F6F2D4
+*/
+
+/* pallette colors */
+.bg-darkblue {
+  background-color: #22577E;
+}
+
+.bg-lightblue {
+  background-color: #5584AC;
+}
+
+.bg-green {
+  background-color: #95D1CC;
+}
+
+.bg-yellow {
+  background-color: #F6F2D4;
+}
+
+.darkblue {
+  color: #22577E;
+}
+
+.lightblue {
+  color: #5584AC;
+}
+
+.green {
+  color: #95D1CC;
+}
+
+.yellow {
+  color: #F6F2D4;
+}
+
+.white {
+  color: #fff;
+}
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #22577E;
+  font-size: 5.625rem;
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+p {
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #22577E 12px;
+  background-color: #F6F2D4;
+  border-bottom: none;
+  width: 6%;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #95D1CC;
+}
+
+.top-container {
+  background-color: #95D1CC;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding: 100px 0;
+  background-color: #F6F2D4;
+}
+
+.middle-2-container {
+  padding: 100px 0;
+  background-color: #95D1CC;
+}
+
+.middle-3-container {
+  padding: 100px 0;
+  background-color: #F6F2D4;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 200px auto;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.comp-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cap-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.python-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.xbox-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 0px 10px 0px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/* Custom */
+
+.skills {
+  margin-bottom: 100px;
+}
+
+.carousel-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+.card-header {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  font-family: 'Montserrat', sans-serif;
+}
+
+li{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.a2:hover {
+  color: #F6F2D4;
+}
+
+.list {
+  text-align: left;
+  list-style-type: none;
+}
+
+.card {
+  margin-bottom: 25px;
+}
+
+/* Breakpoints */
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .skyline {
+    visibility: hidden;
+  }
+}
